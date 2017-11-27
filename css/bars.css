@@ -1,0 +1,78 @@
+#myArk {
+    width: 100%;
+    background-color: red;
+	border:1px solid black;
+}
+#myArkBar {
+    width: 0%;
+    height: 19px;
+    background-color: green;
+	text-align: center;
+	line-height: 19px;
+	white-space: nowrap;
+}
+#myBis {
+    width: 100%;
+    background-color: red;
+	border:1px solid black;
+}
+#myBisBar {
+    width: 0%;
+    height: 19px;
+    background-color: green;
+	text-align: center;
+	line-height: 19px;
+	white-space: nowrap;
+}
+#myCro {
+    width: 100%;
+    background-color: red;
+	border:1px solid black;
+}
+#myCroBar {
+    width: 0%;
+    height: 19px;
+    background-color: green;
+	text-align: center;
+	line-height: 19px;
+	white-space: nowrap;
+}
+#myOch {
+    width: 100%;
+    background-color: red;
+	border:1px solid black;
+}
+#myOchBar {
+    width: 0%;
+    height: 19px;
+    background-color: green;
+	text-align: center;
+	line-height: 19px;
+	white-space: nowrap;
+}
+#myGne {
+    width: 100%;
+    background-color: red;
+	border:1px solid black;
+}
+#myGneBar {
+    width: 0%;
+    height: 19px;
+    background-color: green;
+	text-align: center;
+	line-height: 19px;
+	white-space: nowrap;
+}
+#mySpo {
+    width: 100%;
+    background-color: red;
+	border:1px solid black;
+}
+#mySpoBar {
+    width: 0%;
+    height: 19px;
+    background-color: green;
+	text-align: center;
+	line-height: 19px;
+	white-space: nowrap;
+}
