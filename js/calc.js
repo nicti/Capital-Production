@@ -47,7 +47,39 @@ var Orca = [28606,0,9,38,0,7,16,4,0,0,0,0,0,0,0,4,0,7,0,0];
 var Rorqual = [28352,7,11,22,33,33,44,17,0,6,0,11,0,11,9,9,9,33,0,0];
 
 //make 3d array
-var ships =[Providence,Charon,Obilisk,Fenrir,Revelation,Phoenix,Moros,Naglfar,Chemosh,Vehement,Apostle,Minokawa,Ninazu,Lif,Dagon,Archon,Chimera,Thanatos,Nidhoggur,Aeon,Wyvern,Nyx,Hel,Revenant,Vendetta,Avatar,Leviathan,Erebus,Ragnarok,Vanquisher,Molok,Orca,Rorqual];
+var ships =[Providence
+,Charon
+,Obilisk
+,Fenrir
+,Revelation
+,Phoenix
+,Moros
+,Naglfar
+,Chemosh
+,Vehement
+,Apostle
+,Minokawa
+,Ninazu
+,Lif
+,Dagon
+,Archon
+,Chimera
+,Thanatos
+,Nidhoggur
+,Aeon
+,Wyvern
+,Nyx
+,Hel
+,Revenant
+,Vendetta
+,Avatar
+,Leviathan
+,Erebus
+,Ragnarok
+,Vanquisher
+,Molok
+,Orca
+,Rorqual];
 
 //static data
 var CapitalArmorPlates = ["Capital Armor Plates",21017,473141,111118,43324,7109,2141,682,304];
@@ -375,7 +407,7 @@ function numberTwo(x) {
 //reverseCalcualtor
 //turns minerals back into ore
 function calcOre(Trit, Pye, Mex, Iso,Nocxium,Zydrine,Megacyte){
-	var yield = 0.875;
+	var yield = 0.876;
 	
 	//0%
 	
