@@ -9,7 +9,7 @@ include 'settings.php';
 include 'libs/httpGet.php';
 include 'libs/getCorpAssets.php';
 /*  ###accesscheck###		*/
-if(isset($_GET['logout'])){
+/*if(isset($_GET['logout'])){
 	session_destroy();
 	die('<body bgcolor = "#21272b" text = "#FFFFFFF" vlink = "#fea500" alink = "#fea500" link = "#fea500" ><center><a href="https://login.eveonline.com/oauth/authorize/?response_type=code&redirect_uri=http%3A%2F%2Flogin.nicti.de&scope=esi-wallet.read_corporation_wallet.v1%20esi-corporations.read_divisions.v1%20esi-assets.read_corporation_assets.v1%20esi-universe.read_structures.v1&client_id='.$clientID.'&state='.$page.'"><img src="pic/EVE_SSO_Login_Buttons_Small_White.png"></a>');
 }
@@ -20,7 +20,7 @@ if(!isset($_SESSION['charID'])){
 if($_SESSION['charID']!=95570640){
 	session_destroy();
 	die('<body bgcolor = "#21272b" text = "#FFFFFFF" vlink = "#fea500" alink = "#fea500" link = "#fea500" ><center><a href="https://login.eveonline.com/oauth/authorize/?response_type=code&redirect_uri=http%3A%2F%2Flogin.nicti.de&scope=esi-wallet.read_corporation_wallet.v1%20esi-corporations.read_divisions.v1%20esi-assets.read_corporation_assets.v1%20esi-universe.read_structures.v1&client_id='.$clientID.'&state='.$page.'"><img src="pic/EVE_SSO_Login_Buttons_Small_White.png"></a>');
-}
+}*/
 ?>
 <link rel="stylesheet" type="text/css" href="css/bars.css">
 <script type="text/javascript" src="js/calc.js"></script>
@@ -482,7 +482,7 @@ if($_SESSION['charID']!=95570640){
 <td>
 <?php
 //pull corp's Ore in V-LD(eve system) and corp's minerals in C2X(eve system)
-$assets = getCorpAssets();
+//$assets = getCorpAssets();
 $a0 = 0;
 $a5 = 0;
 $a10 = 0;
