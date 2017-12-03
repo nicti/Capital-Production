@@ -668,7 +668,7 @@ Compressed Spodumain
 <td align="right" id="spo10">0</td>
 </tr>
 </table>
-(expecting perfect reprocessing skills!)
+(expecting 89,3% reprocessing rate!)
 </fieldset>
 </td>
 <td>

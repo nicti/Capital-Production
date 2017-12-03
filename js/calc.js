@@ -407,7 +407,7 @@ function numberTwo(x) {
 //reverseCalcualtor
 //turns minerals back into ore
 function calcOre(Trit, Pye, Mex, Iso,Nocxium,Zydrine,Megacyte){
-	var yield = 0.876;
+	var yield = 0.893;
 	
 	//0%
 	
