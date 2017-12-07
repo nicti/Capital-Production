@@ -83,48 +83,48 @@ var ships =[Providence
 
 //static data
 var CapitalArmorPlates = ["Capital Armor Plates",21017,473141,111118,43324,7109,2141,682,304];
-var CapitalCapacitorBattery = ["Capital Capacitor Battery",21019,326973,107842,39547,644,1841,660,280];
+var CapitalCapacitorBattery = ["Capital Capacitor Battery",21019,326973,107842,39547,6440,1841,660,280];
 var CapitalCargoBay = ["Capital Cargo Bay",21027,874902,72154,24616,2504,998,286,64];
 var CapitalCloneVatBay = ["Capital Clone Vat Bay",24547,640393,139591,48471,8888,2612,1082,444];
-var CapitalComputerSystem = ["Capital Computer System",21035,427708,11111,4411,6581,1858,648,296];
-var CapitalConstructionParts = ["Capital Construction Parts",21037,388208,93777,37729,5104,153,528,212];
+var CapitalComputerSystem = ["Capital Computer System",21035,427708,11110,44110,6581,1858,648,296];
+var CapitalConstructionParts = ["Capital Construction Parts",21037,388208,93777,37729,5104,1530,538,212];
 var CapitalCorporateHangarBay = ["Capital Corporate Hangar Bay",24560,583442,145664,51297,9321,2678,938,436];
-var CapitalDoomsdayWeaponMount = ["Capital Doomsday Weapon Mount",24556,841877,207776,6198,11132,3317,1108,572];
+var CapitalDoomsdayWeaponMount = ["Capital Doomsday Weapon Mount",24556,841877,207776,61980,11132,3317,1108,572];
 var CapitalDroneBay = ["Capital Drone Bay",21029,347163,83248,33332,4499,1258,486,172];
 var CapitalJumpBridgeArray = ["Capital Jump Bridge Array",24545,1121659,278776,75379,17669,4176,1488,1134];
-var CapitalJumpDrive = ["Capital Jump Drive",21025,749916,14271,49913,8617,2249,908,444];
-var CapitalLauncherHardpoint = ["Capital Launcher Hardpoint",21041,471653,11037,44713,7692,2359,860,344];
+var CapitalJumpDrive = ["Capital Jump Drive",21025,749916,142710,49913,8617,2249,908,444];
+var CapitalLauncherHardpoint = ["Capital Launcher Hardpoint",21041,471653,110370,44713,7692,2359,860,344];
 var CapitalPowerGenerator = ["Capital Power Generator",21021,510149,110413,45621,7491,2191,728,334];
-var CapitalPropulsionEngine = ["Capital Propulsion Engine",21009,45705,110416,41994,6938,211,604,302];
+var CapitalPropulsionEngine = ["Capital Propulsion Engine",21009,457050,110416,41994,6938,2110,604,302];
 var CapitalSensorCluster = ["Capital Sensor Cluster",21013,443591,101026,40877,6659,1804,666,298];
-var CapitalShieldEmitter = ["Capital Shield Emitter",21023,49888,104957,43194,7269,2033,696,332];
-var CapitalShipMaintenanceBay = ["Capital Ship Maintenance Bay",24558,576759,189942,53312,901,2461,914,416];
+var CapitalShieldEmitter = ["Capital Shield Emitter",21023,498880,104957,43194,7269,2033,696,332];
+var CapitalShipMaintenanceBay = ["Capital Ship Maintenance Bay",24558,576759,189942,53312,9010,2461,914,416];
 var CapitalSiegeArray = ["Capital Siege Array",21039,555658,125277,47249,7916,2438,908,428];
-var CapitalTurretHardpoint = ["Capital Turret Hardpoint",21011,546912,113826,4501,776,2358,876,386];
+var CapitalTurretHardpoint = ["Capital Turret Hardpoint",21011,546912,113826,45010,7760,2358,876,386];
 
 //make 3d array
 var CapitalParts = [CapitalArmorPlates,CapitalCapacitorBattery,CapitalCargoBay,CapitalCloneVatBay,CapitalComputerSystem,CapitalConstructionParts,CapitalCorporateHangarBay,CapitalDoomsdayWeaponMount,CapitalDroneBay,CapitalJumpBridgeArray,CapitalJumpDrive,CapitalLauncherHardpoint,CapitalPowerGenerator,CapitalPropulsionEngine,CapitalSensorCluster,CapitalShieldEmitter,CapitalShipMaintenanceBay,CapitalSiegeArray,CapitalTurretHardpoint];
 
 //adjustable data
 var a_CapitalArmorPlates = ["Capital Armor Plates",21017,473141,111118,43324,7109,2141,682,304];
-var a_CapitalCapacitorBattery = ["Capital Capacitor Battery",21019,326973,107842,39547,644,1841,660,280];
+var a_CapitalCapacitorBattery = ["Capital Capacitor Battery",21019,326973,107842,39547,6440,1841,660,280];
 var a_CapitalCargoBay = ["Capital Cargo Bay",21027,874902,72154,24616,2504,998,286,64];
 var a_CapitalCloneVatBay = ["Capital Clone Vat Bay",24547,640393,139591,48471,8888,2612,1082,444];
-var a_CapitalComputerSystem = ["Capital Computer System",21035,427708,11111,4411,6581,1858,648,296];
-var a_CapitalConstructionParts = ["Capital Construction Parts",21037,388208,93777,37729,5104,153,528,212];
+var a_CapitalComputerSystem = ["Capital Computer System",21035,427708,11110,44110,6581,1858,648,296];
+var a_CapitalConstructionParts = ["Capital Construction Parts",21037,388208,93777,37729,5104,1530,538,212];
 var a_CapitalCorporateHangarBay = ["Capital Corporate Hangar Bay",24560,583442,145664,51297,9321,2678,938,436];
-var a_CapitalDoomsdayWeaponMount = ["Capital Doomsday Weapon Mount",24556,841877,207776,6198,11132,3317,1108,572];
+var a_CapitalDoomsdayWeaponMount = ["Capital Doomsday Weapon Mount",24556,841877,207776,61980,11132,3317,1108,572];
 var a_CapitalDroneBay = ["Capital Drone Bay",21029,347163,83248,33332,4499,1258,486,172];
 var a_CapitalJumpBridgeArray = ["Capital Jump Bridge Array",24545,1121659,278776,75379,17669,4176,1488,1134];
-var a_CapitalJumpDrive = ["Capital Jump Drive",21025,749916,14271,49913,8617,2249,908,444];
-var a_CapitalLauncherHardpoint = ["Capital Launcher Hardpoint",21041,471653,11037,44713,7692,2359,860,344];
+var a_CapitalJumpDrive = ["Capital Jump Drive",21025,749916,142710,49913,8617,2249,908,444];
+var a_CapitalLauncherHardpoint = ["Capital Launcher Hardpoint",21041,471653,110370,44713,7692,2359,860,344];
 var a_CapitalPowerGenerator = ["Capital Power Generator",21021,510149,110413,45621,7491,2191,728,334];
-var a_CapitalPropulsionEngine = ["Capital Propulsion Engine",21009,45705,110416,41994,6938,211,604,302];
+var a_CapitalPropulsionEngine = ["Capital Propulsion Engine",21009,457050,110416,41994,6938,2110,604,302];
 var a_CapitalSensorCluster = ["Capital Sensor Cluster",21013,443591,101026,40877,6659,1804,666,298];
-var a_CapitalShieldEmitter = ["Capital Shield Emitter",21023,49888,104957,43194,7269,2033,696,332];
-var a_CapitalShipMaintenanceBay = ["Capital Ship Maintenance Bay",24558,576759,189942,53312,901,2461,914,416];
+var a_CapitalShieldEmitter = ["Capital Shield Emitter",21023,498880,104957,43194,7269,2033,696,332];
+var a_CapitalShipMaintenanceBay = ["Capital Ship Maintenance Bay",24558,576759,189942,53312,9010,2461,914,416];
 var a_CapitalSiegeArray = ["Capital Siege Array",21039,555658,125277,47249,7916,2438,908,428];
-var a_CapitalTurretHardpoint = ["Capital Turret Hardpoint",21011,546912,113826,4501,776,2358,876,386];
+var a_CapitalTurretHardpoint = ["Capital Turret Hardpoint",21011,546912,113826,45010,7760,2358,876,386];
 
 //adjustable 3d array
 var a_CapitalParts = [a_CapitalArmorPlates,a_CapitalCapacitorBattery,a_CapitalCargoBay,a_CapitalCloneVatBay,a_CapitalComputerSystem,a_CapitalConstructionParts,a_CapitalCorporateHangarBay,a_CapitalDoomsdayWeaponMount,a_CapitalDroneBay,a_CapitalJumpBridgeArray,a_CapitalJumpDrive,a_CapitalLauncherHardpoint,a_CapitalPowerGenerator,a_CapitalPropulsionEngine,a_CapitalSensorCluster,a_CapitalShieldEmitter,a_CapitalShipMaintenanceBay,a_CapitalSiegeArray,a_CapitalTurretHardpoint];
